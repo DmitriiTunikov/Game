@@ -1,6 +1,5 @@
 #pragma once
 
-#include <math.h>
 #include "vector2.h"
 
 #define float_MAX (1000000000000)

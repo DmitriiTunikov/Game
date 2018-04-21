@@ -37,14 +37,14 @@ anim::~anim(void)
   glColor3ub(color.Rcol, color.Gcol, color.Bcol);
   glRecti(p.x, p.y, p.x + size.W, p.y + size.H);
 }*/
-
+/*
 void anim::DrawStr(const string &Str, const Color &Color, const Coord &Pos)
 {
   glColor3f(Color.Rcol, Color.Bcol, Color.Gcol);
   glRasterPos2f(Pos.x, Pos.y);
   for (size_t i = 0; i < Str.size(); i++)
     glutBitmapCharacter(GLUT_BITMAP_HELVETICA_10, Str[i]);
-}
+}*/
 
 void anim::DrowButtonVec(const vector<Button*> &but_vec)
 {

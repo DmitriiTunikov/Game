@@ -1,6 +1,9 @@
 #pragma once
 
-class Object
-{
+class Object{
+public:
+	Object();
 
+	virtual void Draw();
+	virtual void Update();
 };
